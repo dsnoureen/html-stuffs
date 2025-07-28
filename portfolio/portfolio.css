@@ -142,3 +142,7 @@ footer textarea{
     margin-bottom: 20px;
     border: none;
 }
+.resume{
+    display: flex;
+    gap: 30px;
+}
