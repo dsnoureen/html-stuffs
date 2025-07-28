@@ -1,0 +1,65 @@
+.r_in_mary {
+    color: #FD6E0A;
+}
+
+.button {
+    border: 1px solid #FD6E0A;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.body-font-color {
+    color: #474747;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contact_button {
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.description-and-hardy {
+    display: flex;
+    gap: 198px;
+    justify-content: space-around;
+    margin: 0 30px 0 195px;
+}
+
+.header {
+    background-image: url("../images/developer.png"),url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+}
