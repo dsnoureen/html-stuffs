@@ -71,8 +71,9 @@ ul {
 
 .about {
     max-width: 782px;
-    max-height: 288px;
     text-align: center;
+    padding: 100px 110px;
+    margin-top: 50px;
 }
 
 .about-flex {
@@ -85,4 +86,19 @@ ul {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.back-ground-color {
+    background-color: hwb(34 77% 3%);
+}
+.skills-align{
+    text-align: left;
+}
+.box-shadow{
+    box-shadow: 10px 10px 30px rgb(177, 191, 204) ;
 }
