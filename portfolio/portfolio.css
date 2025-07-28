@@ -55,11 +55,11 @@ ul {
     display: flex;
     gap: 198px;
     justify-content: space-around;
-    margin: 0 30px 0 195px;
+    margin: 0 40px 0 100px;
 }
 
 .header {
-    background-image: url("../images/developer.png"),url("../images/header_bg.png");
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left , bottom right;
 }
