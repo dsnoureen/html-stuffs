@@ -96,9 +96,11 @@ main {
 .back-ground-color {
     background-color: hwb(34 77% 3%);
 }
+
 .skills-align{
     text-align: left;
 }
+
 .box-shadow{
     box-shadow: 10px 10px 30px rgb(177, 191, 204) ;
 }
@@ -106,5 +108,37 @@ main {
 .footer-flex{
     display: flex;
     gap: 30px;
-    justify-content: space-around;
+}
+
+footer div ul li a{
+    text-decoration: none;
+}
+
+footer div ul li{
+    list-style: none;
+}
+
+footer{
+    padding: 50px 100px;
+}
+
+footer input[type="text"]{
+    border-radius: 5px;
+    background-color: white;
+    color: #474747;
+    height: 44px;
+    width: 100%;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+    border: none;
+}
+footer textarea{
+    border-radius: 5px;
+    background-color: white;
+    color: #474747;
+    height: 64px;
+    width: 100%;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+    border: none;
 }
